@@ -16,7 +16,7 @@ endif()
 
 ExternalProject_Add(
   project_libmbedtls
-  GIT_REPOSITORY 	https://github.com/ARMmbed/mbedtls.git
+  GIT_REPOSITORY 	https://github.com/onceLabs/mbedtls.git
   GIT_TAG 			  mbedtls-2.16.5
   PREFIX 			    ${CMAKE_CURRENT_BINARY_DIR}/build
   CMAKE_ARGS
